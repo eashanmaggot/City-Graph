@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		49CA61B5784CC83FF0FAC6B5 /* Pods_City_Graph.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE6A1218EEAADB9D8CD6BEE0 /* Pods_City_Graph.framework */; };
+		D5AE309A1F881011001295B5 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AE30991F881011001295B5 /* DroppablePin.swift */; };
 		D5EAAF2B1F87E3D400410FB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EAAF2A1F87E3D400410FB1 /* AppDelegate.swift */; };
 		D5EAAF301F87E3D400410FB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EAAF2E1F87E3D400410FB1 /* Main.storyboard */; };
 		D5EAAF321F87E3D400410FB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EAAF311F87E3D400410FB1 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		004814F889407912984B041C /* Pods-City Graph.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City Graph.release.xcconfig"; path = "Pods/Target Support Files/Pods-City Graph/Pods-City Graph.release.xcconfig"; sourceTree = "<group>"; };
 		3357EED9E1E971B79F96D1B0 /* Pods-City Graph.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City Graph.debug.xcconfig"; path = "Pods/Target Support Files/Pods-City Graph/Pods-City Graph.debug.xcconfig"; sourceTree = "<group>"; };
+		D5AE30991F881011001295B5 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		D5EAAF271F87E3D400410FB1 /* City Graph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Graph.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5EAAF2A1F87E3D400410FB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5EAAF2F1F87E3D400410FB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 		D5EAAF3D1F87E45B00410FB1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D5AE30991F881011001295B5 /* DroppablePin.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5EAAF2B1F87E3D400410FB1 /* AppDelegate.swift in Sources */,
+				D5AE309A1F881011001295B5 /* DroppablePin.swift in Sources */,
 				D5EAAF411F87E48800410FB1 /* MapVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
