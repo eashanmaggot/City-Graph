@@ -47,7 +47,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4N-ou-6hn">
-                                <rect key="frame" x="305" y="597" width="50" height="50"/>
+                                <rect key="frame" x="305" y="596" width="50" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="PsQ-Rg-344"/>
                                     <constraint firstAttribute="height" constant="50" id="g28-YH-Vs1"/>
@@ -74,8 +74,8 @@
                             <constraint firstItem="BG8-qP-hul" firstAttribute="top" secondItem="GTo-gW-qcE" secondAttribute="top" id="Uzr-Up-JMV"/>
                             <constraint firstAttribute="trailing" secondItem="yFO-QZ-WcG" secondAttribute="trailing" id="Xng-Xx-L9v"/>
                             <constraint firstItem="HJ4-5U-ekm" firstAttribute="bottom" secondItem="y9a-W9-zpZ" secondAttribute="bottom" id="bwH-r5-Oz2"/>
-                            <constraint firstItem="HJ4-5U-ekm" firstAttribute="bottom" secondItem="p4N-ou-6hn" secondAttribute="bottom" constant="20" id="cCI-2D-9zs"/>
                             <constraint firstItem="y9a-W9-zpZ" firstAttribute="leading" secondItem="HJ4-5U-ekm" secondAttribute="leading" id="ccf-DC-KVA"/>
+                            <constraint firstItem="yFO-QZ-WcG" firstAttribute="top" secondItem="p4N-ou-6hn" secondAttribute="bottom" constant="20" id="gxa-B0-RmY"/>
                             <constraint firstItem="y9a-W9-zpZ" firstAttribute="trailing" secondItem="HJ4-5U-ekm" secondAttribute="trailing" id="seP-7M-Plb"/>
                             <constraint firstItem="HJ4-5U-ekm" firstAttribute="trailing" secondItem="p4N-ou-6hn" secondAttribute="trailing" constant="20" id="taZ-Io-jTu"/>
                             <constraint firstItem="y9a-W9-zpZ" firstAttribute="top" secondItem="GTo-gW-qcE" secondAttribute="top" id="wou-Nw-dwR"/>
@@ -84,6 +84,8 @@
                     </view>
                     <connections>
                         <outlet property="mapView" destination="y9a-W9-zpZ" id="rI7-H1-UoJ"/>
+                        <outlet property="mapViewHeightConstraint" destination="qbc-9P-XR9" id="arQ-Kf-Cmn"/>
+                        <outlet property="pullUpview" destination="yFO-QZ-WcG" id="aqs-z0-CRx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="msH-7i-V59" userLabel="First Responder" sceneMemberID="firstResponder"/>
